@@ -1,0 +1,229 @@
+.content{
+    color: #577085;
+/*    font-family: 'Open Sans', sans-serif;*/
+}
+
+
+.hide{
+/*    font-family: 'Open Sans', sans-serif;*/
+    display: none;
+}
+
+
+
+ul .ticket:hover .titles .hide{
+    display: block;
+    color: #7D8690;
+    float: right;
+    font-size: 14px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.restoreBtn{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color: #70a4df;
+}
+
+.bot {
+    bottom: 0;
+    right : 0;
+    position: fixed;
+    width: 350px;
+}
+
+.btn {
+    font-size: 20px;
+    float: right;
+    width: 100%;
+    padding: 8px;
+    background-color: rgb(183, 0, 255)
+}
+
+#app li{
+        padding: 5px;
+        border: 1px solid #b7cfe1;
+        background-color: #DBEFFE;
+        font-size: 14px;
+        height: 20px;
+        border-radius: 5px;
+        display: inline;
+        margin-right: 5px;
+}
+
+.read-more-link{
+    color: blueviolet;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+
+  body a {
+      font-size: 14px!important;
+      color: #3899ec!important;
+  }
+
+  .test{
+      display: none;
+  }
+
+  .showmore{
+    background-color: #116DFF;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    align-self: center;
+    font-size: 16px;
+    outline: none;
+    color: #FFFFFF;
+}
+
+.showmore:hover{
+    background-color: #2F7CFF;
+}
+ .buttoncont{
+     text-align: center;
+ }
+
+
+ .labels{
+    padding: 5px;
+    border: 1px solid #b7cfe1;
+    background-color: #DBEFFE;
+    font-size: 14px;
+    height: 20px;
+    border-radius: 5px;
+    display: inline;
+    margin-right: 5px;
+}
+
+.cancel{
+    background-color: #FFFFFF;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #DFDEDD;
+    outline: none;
+    color: #1C5297;
+}
+
+.send{
+    background-color: #1C5297;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color:  #FFFFFF;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.done{
+    background-color: lightgreen;
+    border: 1px solid rgb(93, 155, 93);
+    margin-left: 10px;
+    padding: 6px;
+    border-radius: 6px;
+    border: none;
+    align-self: center;
+    font-size: 13px;
+    outline: none;
+}
+
+
+.modaling{
+    color: #FFFFFF;
+    margin-left: 10px;
+    padding: 6px;
+    border-radius: 6px;
+    border: none;
+    align-self: center;
+    font-size: 12px;
+    outline: none;
+    border: 1px solid #b7cfe1;
+    background-color: #fc5674;
+ }
+
+ .subject{
+     margin-top: 15px;
+ }
+
+ .dashboard{
+    height: 180px;
+    color: #7a92a5;
+	font-size: 12px;
+    width: 100%;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px 1px #e1e5e8;
+    margin-bottom: 14px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    transition: box-shadow .2s ease-in-out;
+    position: relative;
+ }
+ * {
+    box-sizing: border-box;
+  }
+
+    .rows{
+      height: 180px; /* Should be removed. Only for demonstration */
+      background-color: #fff;
+      box-shadow: 0 2px 3px 1px #e1e5e8;
+      border: 1px solid #fff;
+      border-radius: 8px;
+  }
+  
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    flex-shrink: 0;
+    margin-bottom: 14px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    transition: box-shadow .2s ease-in-out;
+    position: relative;
+  }
+
+  .clock{
+      margin-bottom: 15%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.counter{
+    font-weight: bolder;
+    font-size: 80px;
+}
+
+.hiddencount{
+    color:#fc5674;
+    text-align: center;
+}
+.closedcount{
+    color: lightgreen;
+    text-align: center;
+}
+.dashtext{
+    text-align: center;
+}
